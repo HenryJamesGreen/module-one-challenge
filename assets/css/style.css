@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+header {
+  padding: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+/* 'Horiseon' logo */
+
+h1 {
+  display: inline-block;
+  font-size: 45px;
+}
+
+.seo {
+  color: #d9dcd6;
+}
+
+/* navigation */
+
+nav {
+  float: right;
+  list-style-type: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: -35px 0px 0px 350px;
+  padding-bottom: 5px;
+}
+
+li {
+  display: inline-block;
+  margin: 0px 0px 0px 25px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Figure = Main image of marketing meeting. Changed url to html element in order to provide info for <alt> */
+
+figure img {
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/* Section = Services - blue block to left of document */
+
+section {
+  position: relative;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.services {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.services img {
+  display: inline;
+  width: 300px;
+}
+
+.services h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Aside = benefit-lead - section containing icons to right of document */
+
+aside {
+  display: block;
+  position: relative;
+  margin: -640px 20px 0px 0px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+.benefit-lead h3 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.benefit-lead p {
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.benefit-lead img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* footer of document with 'powered by' slogan */
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h4 {
+  font-size: 20px;
+}
